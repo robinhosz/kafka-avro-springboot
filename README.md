@@ -14,7 +14,9 @@ This is an example application demonstrating how to use Apache Kafka with Avro s
 
 ```bash
 git clone https://github.com/robinhosz/kafka-avro-springboot.git
-cd kafka-avro-springboot 
+cd kafka-avro-springboot
+```
+
 
 
 ## Usage
@@ -37,12 +39,4 @@ curl -X POST http://localhost:8181
 
 ### Consuming Messages
 
-The produced messages can be consumed from the Kafka topic defined by the application. To view the consumed messages, check the application logs. <br><br>
-
-
-
-### 🧑 Author
-
- <img style="border-radius: 8px" src="https://user-images.githubusercontent.com/82779533/158067762-8d25be74-d955-41da-8a96-f400e75f902b.jpg" width="100px;" alt="José Robson"/>
-
-<strong>José Robson</strong>
+The produced messages can be consumed from the Kafka topic defined by the application. To view the consumed messages, check the application logs.
