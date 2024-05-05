@@ -14,7 +14,7 @@ This is an example application demonstrating how to use Apache Kafka with Avro s
 
 ```bash
 git clone https://github.com/robinhosz/kafka-avro-springboot.git
-cd kafka-avro-springboot <br><br>
+cd kafka-avro-springboot 
 
 
 ## Usage
@@ -33,8 +33,7 @@ curl -X POST http://localhost:8181
 "lastName": "Doe",
 "email": "john.doe@example.com",
 "age": 30
-}' <br><br>
-
+}'
 
 ### Consuming Messages
 
